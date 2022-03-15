@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100vh;
+}
+
+nav{
+	/* background-color: #171c24; */
+	width: 100%;
+	/* height: 80px; */
+	/* margin-top: 10px; */
+	background-image: url('./photos/humanity.png') ;
+	height: 800px;
+	background-size: cover;
+
+}
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	font-weight: bold;
+	/* padding: 0 100px; */
+	padding-left: 100px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 13px;
+
+}
+
+a:hover{
+	background-color: #ff3d00;
+	border-radius: 5px;
+}
+
+/* p{
+	width: 400px;
+	color: aliceblue;
+	margin-top: 120px;
+	margin-left: 50px;
+	
+}
+
+.para2{
+	width: 400px;
+	color: aliceblue;
+	margin-top: 120px;
+	margin-left: 50px;
+} */
+
+div{
+	width: 400px;
+	height: 300px;
+	/* background-color: #ffffff; */
+	color: aliceblue;
+	margin-top: 70px;
+	margin-left: 50px;
+
+	
+}
+
+.div2{
+	width: 400px;
+	height: 50%;
+	/* background-color: bisque; */
+	
+}
+
+.div3{
+	width: 400px;
+	height: 50%;
+	/* background-color: rgb(219, 130, 21); */
+	
+}
